@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-02-14 16:22:32">
+<sys_data_policy2 action="INSERT_OR_UPDATE">
+<active>true</active>
+<apply_import_set>true</apply_import_set>
+<apply_soap>true</apply_soap>
+<conditions table="incident">assigned_toISNOTEMPTY^EQ<item goto="false" or="false" field="assigned_to" endquery="false" value="" operator="ISNOTEMPTY" newquery="false"/>
+<item goto="false" or="false" field="" endquery="true" value="" operator="=" newquery="false"/>
+</conditions>
+<description/>
+<enforce_ui>true</enforce_ui>
+<inherit>false</inherit>
+<model_id/>
+<model_table>incident</model_table>
+<reverse_if_false>true</reverse_if_false>
+<short_description>INC AG mandatory if assigned to not empty</short_description>
+<sys_class_name>sys_data_policy2</sys_class_name>
+<sys_created_by>henri.muldre</sys_created_by>
+<sys_created_on>2022-02-14 16:21:24</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>3f7a4e271be1011081da0d41604bcb87</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>INC AG mandatory if assigned to not empty</sys_name>
+<sys_overrides display_value=""/>
+<sys_package display_value="Global" source="global">global</sys_package>
+<sys_policy/>
+<sys_scope display_value="Global">global</sys_scope>
+<sys_update_name>sys_data_policy2_3f7a4e271be1011081da0d41604bcb87</sys_update_name>
+<sys_updated_by>henri.muldre</sys_updated_by>
+<sys_updated_on>2022-02-14 16:21:24</sys_updated_on>
+</sys_data_policy2>
+</unload>
